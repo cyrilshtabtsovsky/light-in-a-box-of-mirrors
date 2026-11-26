@@ -9,6 +9,19 @@ DOI: [10.5281/zenodo.24546586](https://doi.org/10.5281/zenodo.24546586) (paper a
 To cite: C. Shtabtsovsky, *Light in a box of mirrors: counting the placements that give a single closed curve*,
 preprint, 2026. https://doi.org/10.5281/zenodo.24546586
 
+## The problem
+
+Put dots in an n x k grid inside a box. Between any two neighbouring dots you may place a small two-sided mirror.
+Light travels at 45 degrees between the dots and is reflected by the mirrors and by the walls of the box. Its
+paths form closed curves that go around every dot, the same curves as in the kolam drawings of South India and
+the sona drawings of Angola. **For how many mirror placements is there one single closed curve?**
+
+![Mirror curves on a grid of dots, and the formula that counts the single-curve placements](mirror_curves.png)
+
+*Left: a 3 x 3 grid without mirrors gives three curves. Middle: two mirrors (grey bars) merge them into one.
+Right: a 5 x 4 grid with ten mirrors and a single curve. Below: the number T(n,k) of mirror placements with a
+single curve, proved in the paper.*
+
 ## Result
 
 T(n,k) = number of ways to place two-sided mirrors between neighbouring dots of an n x k grid of dots
@@ -54,6 +67,7 @@ Also: 2^((n-1)(k-1)) divides T(n,k), and log T(n,k) / (nk) -> log 2 + 2G/pi = 1.
 | `regions.py` | The same count for non-rectangular shapes; reproduces the 2007 kolam counts 240 and 11,661,312 |
 | `figs.py` | Traces mirror curves from the definition (used for the mirror-curve pictures); checks the parity remark and the spanning-tree form |
 | `oeis_b400778.txt` | The 136 terms of the OEIS b-file, downloaded 25 Nov 2026 |
+| `mirror_curves.png` | The picture above (Figure 1 of the paper and the formula) |
 | `LICENSE`, `CITATION.cff` | MIT for the code, CC BY 4.0 for the paper |
 
 ## What was checked by computer (25-26 Nov 2026)
