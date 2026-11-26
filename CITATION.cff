@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper."
+title: "Light in a box of mirrors: counting the placements that give a single closed curve"
+type: software
+authors:
+  - family-names: Shtabtsovsky
+    given-names: Cyril
+    email: c@astrolabe.vc
+version: "1.0"
+date-released: 2026-11-26
+doi: 10.5281/zenodo.24546586
+repository-code: "https://github.com/cyrilshtabtsovsky/light-in-a-box-of-mirrors"
+url: "https://doi.org/10.5281/zenodo.24546586"
+keywords:
+  - mirror curves
+  - kolam
+  - sona
+  - Eulerian circuits
+  - BEST theorem
+  - OEIS A400778
+license:
+  - MIT
+  - CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Light in a box of mirrors: counting the placements that give a single closed curve"
+  authors:
+    - family-names: Shtabtsovsky
+      given-names: Cyril
+  year: 2026
+  doi: 10.5281/zenodo.24546586
+  url: "https://doi.org/10.5281/zenodo.24546586"
+  status: preprint

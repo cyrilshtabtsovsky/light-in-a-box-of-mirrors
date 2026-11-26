@@ -1,0 +1,10 @@
+# private working notes (email drafts, submission notes)
+submission/
+_to_delete/
+# build products
+*.aux
+*.log
+*.out
+brute
+__pycache__/
+fig_*.tex
